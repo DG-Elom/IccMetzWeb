@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { Header } from "@/src/features/layout/Header";
 import { Footer } from "@/src/features/layout/Footer";
 import { ThemeProvider } from "@/src/theme/ThemeProvider";
+import { Navbar } from "@/src/features/layout/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,8 +31,9 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex flex-col h-full">
             <Header />
+            {/* <Navbar /> */}
             <div className="flex-1 max-w-lg m-auto py-14 w-full">
-              {children}
+              {children}N
             </div>
             <Footer />
           </div>
