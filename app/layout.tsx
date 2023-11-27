@@ -27,16 +27,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className={clsx(inter.className, "bg-background h-full")}>
+      <body className={clsx(inter.className, "h-full")}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex flex-col h-full">
-            <Header />
-            {/* <Navbar /> */}
-            <div className="flex-1 max-w-lg m-auto py-14 w-full">
-              {children}N
-            </div>
-            <Footer />
-          </div>
+          <Header />
+          <div className="">{children}</div>
+          <Footer />
+
           {/* {modal} */}
         </ThemeProvider>
       </body>
