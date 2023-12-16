@@ -61,7 +61,7 @@ export const Footer = () => {
       </div>
       <div className="flex item-start justify-end gap-4 pl-5 bottom-0">
         <p>Politique de dons</p>
-        <p>Conditions d'utilisation</p>
+        <p>Conditions d’utilisation</p>
         <p>Plan du site</p>
       </div>
     </footer>

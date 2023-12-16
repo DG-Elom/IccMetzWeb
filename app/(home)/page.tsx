@@ -13,7 +13,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="">
-      <Hero title={"Impact Centre Chrétien Metz"} />
+      <Hero title={"Impact Centre Chrétien Metz"} nextSectionId="infoIccMetz" />
+
       <InfoIccMetz />
       <Actualities />
       <CentreDeFormation />

@@ -21,7 +21,10 @@ const Actualities = () => {
     },
   ];
   return (
-    <section className="flex flex-col items-center p-5 bg-primary text-primary-foreground h-[575px]">
+    <section
+      id="actualities"
+      className="flex flex-col items-center p-5 bg-primary text-primary-foreground h-[575px]"
+    >
       <h1 className="text-[40px]">Les actualités</h1>
       <div className="container ">
         <Carousel loop>
